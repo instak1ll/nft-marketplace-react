@@ -1,0 +1,25 @@
+@import './reset.css';
+@import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:regular,600);
+
+:root {
+    /* Fonts */
+    --space: 'Space Mono', monospace;
+    --work: 'Work Sans', sans-serif;
+    /* Colors */
+    --bg1: #2B2B2B;
+    --bg2: #3B3B3B;
+    --caption: #858584;
+    --text: #FFFFFF;
+    --calltoaction: #A259FF;
+    --accent1: #377DF7;
+    --accent2: #FF7262;
+    --gradient1: rgba(255, 98, 80, 1);
+    --gradient2: rgba(162, 89, 255, 1);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
